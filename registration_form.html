@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>registration form</title>
+        <style>
+            body {
+                     background-color: rgb(43, 140, 140);
+                     
+            }
+            #one {
+                     background-color: aquamarine;
+                     border-radius: 20px;
+                     box-shadow: 0 2px 5px rgba(234, 231, 231, 0.9);
+            }
+            h1 {
+                background-color: black;
+                border-radius: 5px;
+            }
+            div  {
+                text-align: center;
+            }
+            input {
+                
+                width: 50%;
+            margin: 0.3rem 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+	<h1  style="color:rgb(220, 200, 70)"; align="center">REGISTRATION FORM</h1>
+    <fieldset id="one">
+        <lablefor="name">First Name:</lable>
+            <br>
+            <input type="text" name="fname">
+            <br>
+            <lablefor="name">Last Name:</lable>
+            <br>
+            <input type="text" name="lname">
+            <br>
+            <lablefor="name">E mail:</lable> 
+            <br>   
+             <input type="email" name="email">
+            <br>
+            <lablefor="name">Password:</lable>
+            <br>
+            <input type="password" name="pass"
+            size="30" maxlenght="20">
+            <br>
+            <lablefor="name">Confirm Password:</lable>
+            <br>
+            <input type="password" name="pass"
+            size="30" maxlenght="20">
+            <br>
+            <lablefor="name">Gender:</lable>
+            <br>
+            <lablefor="name">Male:</lable>
+            <input type="radio" name="choose"
+            value="no" id="male">
+            <br>
+            <lablefor="name">Female:</lable>
+            <input type="radio" name="choose"
+            value="no" id="female">
+            <br>
+            <lablefor="name">Married:</lable>
+            <input type="checkbox" value="no">
+            <br>
+            <lablefor="name">Your Hobbies:</lable>
+            <br>
+            <textarea row="10" cols="50">Write your hobbies here....</textarea>
+            <br>
+            <lablefor="name">Choose Youir Country:</lable><br>
+            <select name="dropdown" size="4">
+                <option>India</option>
+                <option>Japan</option>
+                <option>France</option>
+                <option>Spain</option>
+                </select>
+                <br>
+                <lablefor="name">Upload Document</lablefor>:</lable>
+                <br>
+                <input type="file" name="fileupload" accept="image/*" /> 
+                <br>
+                <div>
+                <input type="button" value="Reset" >
+                <input type="button" value="Submit" >
+                </div>
+				</form>
+             </id=fieldset>
+    </body>
+</html>
